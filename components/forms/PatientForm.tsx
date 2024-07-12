@@ -47,6 +47,8 @@ const PatientForm = () => {
       if (user) router.push(`/patients/${user.$id}/register`);
     } catch (error) {
       console.log(error);
+    } finally {
+      setIsLoading(false);
     }
   }
   return (
