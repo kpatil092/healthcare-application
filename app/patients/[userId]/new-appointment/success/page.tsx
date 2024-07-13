@@ -74,7 +74,6 @@ const Success = async ({
         <p className="copyright">&#169;  2024 HealthFit </p>
       </div>
     </div>
-    // 3:13:00
   );
 };
 
