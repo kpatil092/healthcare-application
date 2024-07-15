@@ -1,13 +1,15 @@
-import StatCard from "@/components/StatCard";
-import { DataTable } from "@/components/table/DataTable";
-import { columns } from "@/components/table/columns";
-import { getRecentAppointments } from "@/lib/actions/appointment.action";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+import { StatCard } from "@/components/StatCard";
+import { DataTable } from "@/components/table/DataTable";
+import { columns } from "@/components/table/columns";
+import { getRecentAppointments } from "@/lib/actions/appointment.action";
+
 const Admin = async () => {
   const appointments = await getRecentAppointments();
+  // console.log(appointments);
 
   return (
     <div className="mx-auto flex max-w-7xl flex-col space-y-14">

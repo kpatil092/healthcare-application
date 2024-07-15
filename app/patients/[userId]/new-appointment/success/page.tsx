@@ -56,7 +56,7 @@ const Success = async ({
           </div>
           <div className="flex gap-2">
             <Image
-              src="/assets/icons/calender.svg"
+              src="/assets/icons/calendar.svg"
               height={24}
               width={24}
               alt="calender"
