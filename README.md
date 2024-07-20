@@ -46,3 +46,11 @@ NEXT_PUBLIC_ADMIN_PASSKEY=123456
 ```
 npm dev run
 ```
+
+### Screenshots
+1. Home Page
+![Home Page](https://github.com/kpatil092/healthcare-application/blob/main/screenshots/front.png)
+2. Create a New Appointment Page
+![Home Page](https://github.com/kpatil092/healthcare-application/blob/main/screenshots/new-appointment.png)
+3. Admin Dashboard
+![Home Page](https://github.com/kpatil092/healthcare-application/blob/main/screenshots/admin-dashboard.png)
